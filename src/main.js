@@ -1,4 +1,5 @@
-const encoder = new TextEncoder('utf-8')
+var util = require("util");
+var encoder = new util.TextEncoder("utf-8");
 
 const HOST_SERVICES = {
   'appstream2': 'appstream',
