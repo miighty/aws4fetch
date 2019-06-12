@@ -1,15 +1,16 @@
 {
-  "name": "aws4fetch",
-  "version": "1.0.0",
+  "name": "aws4fetchmiighty",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/aws4fetch.cjs.js",
   "module": "dist/aws4fetch.esm.js",
   "browser": "dist/aws4fetch.umd.js",
-  "author": "Michael Hart <michael.hart.au@gmail.com>",
+  "author": "Ricrado Mighty <Rickatado@hotmail.co.uk>",
   "license": "MIT",
   "devDependencies": {
     "puppeteer": "^1.11.0",
-    "rollup": "^0.68.0"
+    "rollup": "^0.68.0",
+    "text-encoding": "^0.6.4"
   },
   "scripts": {
     "build": "rollup -c",
